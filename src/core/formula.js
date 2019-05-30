@@ -32,6 +32,14 @@ const baseFormulas = [
     title: tf('formula.concat'),
     render: ary => ary.join(''),
   },
+  {
+    key: 'HELLO',
+    title: tf('formula.hello'),
+    render: ary =>
+    // { debugger;}
+    'Hello Cruel World!',
+  },
+
 ];
 
 const formulas = baseFormulas;

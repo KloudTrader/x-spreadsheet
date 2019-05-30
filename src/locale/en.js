@@ -55,6 +55,7 @@ export default {
     max: 'Max',
     min: 'Min',
     concat: 'Concat',
+    hello: 'Hello',
   },
   validation: {
     required: 'it must be required',
